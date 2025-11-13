@@ -99,40 +99,41 @@ pgsql
 Copy code
 api-php-native-stevi/
 ├── config/
-│    └── env.php
+│   └── env.php
 ├── logs/
 ├── public/
-│   ├── index.php
-│   └── .htaccess
+│   ├── .htaccess
+│   └── index.php
 ├── src/
-│   ├── config/
-│   │    └── Database.php   
-│   ├── Controllers/
-│   │   ├── AuthController.php
-│   ├── BaseController.php
-│   │   ├── HealthController.php
-│   │   ├── UploadController.php
-│   │   ├── UserController.php
-│   │   └── VersionController.php
-│   ├── Helpers/
-│   │   ├── Jwt.php
-│   │   ├── RateLimiter.php   
-│   │   └── Response.php
-│   ├── Middlewares/
-│   │   ├── AuthMiddleware.php
-│   │   └── CorsMiddleware.php
-│   ├── Repositories/
-│   │   └── UserRepository.php 
-│   └── Validation/  
-│       └── Validator.php 
+│   ├── Config/ 
+│   │   └──Database.php
+│   ├── Controllers/
+│   │   ├──AuthController.php
+│   │   ├──BaseController.php
+│   │   ├──HealthController.php
+│   │   ├──UploadController.php
+│   │   ├──UserController.php
+│   │   └──VersionController.php
+│   ├── Helpers/
+│   │   ├──Jwt.php
+│   │   ├──RateLimiter.php
+│   │   └──Response.php
+│   ├── Middlewares/
+│   │   ├──AuthMiddleware.php
+│   │   └──CorsMiddleware.php
+│   ├── Repositories/
+│   │   └──UserRepository.php
+│   └── Validation/
+│       └──Validator.php
 ├── uploads/
-│   ├── .htaccess
-│   └── image dan file yang di upload
+│   ├── .htaccess
+│   └── image dan file yang di upload dan namanya terHash.
 ├── API PHP Native.postman_collection.json
-├── api-contract.php 
+├── api-contract.php
+├── ard.php
 ├── CHANGELOG.md
 ├── composer.json
-├── jwt.php
+├── Jwt.php
 ├── openapi-lite.yaml
 └── README.md
 
