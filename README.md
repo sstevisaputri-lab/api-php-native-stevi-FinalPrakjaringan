@@ -99,35 +99,35 @@ pgsql
 Copy code
 api-php-native-stevi/
 ├── config/
-│   ├── env.php
+│    └── env.php
 ├── logs/
 ├── public/
 │   ├── index.php
-│   └── .htaccess
+│   └── .htaccess
 ├── src/
-│   ├── config
-|   |     └─ Database.php   
-│   ├── Controllers/
-|   |      ├──AuthController.php
-|   |      ├──BaseController.php
-|   |      ├──HealthController.php
-|   |      ├──UploadController.php
-|   |      ├──UserController.php
-│   |      └──VersionController.php
-│   ├── Helpers/
-|   |      ├──Jwt.php
-|   |      ├──RateLimiter.php   
-|   |      └──Response.php
-│   ├── Middlewares/
-|   |      ├──AuthMiddleware.php
-|   |      └──CorsMiddleware.php
-│   ├── Repositories/
-|   |      └──UserRepository.php 
-│   └── Validation/  
-|          └──Validator.php 
+│   ├── config/
+│   │    └── Database.php   
+│   ├── Controllers/
+│   │   ├── AuthController.php
+│   ├── BaseController.php
+│   │   ├── HealthController.php
+│   │   ├── UploadController.php
+│   │   ├── UserController.php
+│   │   └── VersionController.php
+│   ├── Helpers/
+│   │   ├── Jwt.php
+│   │   ├── RateLimiter.php   
+│   │   └── Response.php
+│   ├── Middlewares/
+│   │   ├── AuthMiddleware.php
+│   │   └── CorsMiddleware.php
+│   ├── Repositories/
+│   │   └── UserRepository.php 
+│   └── Validation/  
+│       └── Validator.php 
 ├── uploads/
-|    ├──.htaccess
-|    └──image dan file yang di upload
+│   ├── .htaccess
+│   └── image dan file yang di upload
 ├── API PHP Native.postman_collection.json
 ├── api-contract.php 
 ├── CHANGELOG.md
@@ -135,6 +135,7 @@ api-php-native-stevi/
 ├── jwt.php
 ├── openapi-lite.yaml
 └── README.md
+
 🧠 Fitur Utama
 Fitur	Deskripsi
 🔹 Routing Manual	Mengatur endpoint API di public/index.php

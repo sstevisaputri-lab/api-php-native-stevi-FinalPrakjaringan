@@ -1,0 +1,7 @@
+# Allow direct access to all files
+<FilesMatch "\.(jpg|jpeg|png|pdf|txt|php)$">
+    Allow from all
+</FilesMatch>
+
+# Execute PHP files
+AddType application/x-httpd-php .php
