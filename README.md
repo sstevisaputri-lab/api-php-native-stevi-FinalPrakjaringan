@@ -17,7 +17,7 @@
 
 ## 📘 Deskripsi Proyek
 
-API ini dibangun dari nol menggunakan *PHP Native (tanpa framework)* dengan konsep MVC sederhana.  
+API ini dibangun dari nol menggunakan PHP Native (tanpa framework) dengan konsep MVC sederhana.  
 Mendukung fitur:
 - Routing manual
 - Autentikasi JWT (login dan middleware)
@@ -95,8 +95,8 @@ Copy code
 Email: stepi@example.com
 Password: stevi2224
 📂 Struktur Folder
-pgsql
-Copy code
+
+```
 api-php-native-stevi/
 ├── config/
 │   └── env.php
@@ -115,9 +115,9 @@ api-php-native-stevi/
 │   │   ├── UserController.php
 │   │   └── VersionController.php
 │   ├── Helpers/
-│   │      ├── jwt.php
-│   │      ├── RateLimiter.php
-│   │      └── Response.php
+│   │   ├── jwt.php
+│   │   ├── RateLimiter.php
+│   │   └── Response.php
 │   ├── Middlewares/
 │   │   ├── AuthMiddleware.php
 │   │   └── CorsMiddleware.php
@@ -136,6 +136,7 @@ api-php-native-stevi/
 ├── jwt.php
 ├── openapi-lite.yaml
 └── README.md
+```
 
 🧠 Fitur Utama
 Fitur	Deskripsi
@@ -217,4 +218,4 @@ Dosen Pengampu:	(Samuel Yacobus Padang,S.Kom.,M.Kom)
 Proyek ini digunakan untuk keperluan pembelajaran Pemrograman Jaringan.
 Tidak untuk tujuan komersial atau distribusi ulang tanpa izin dosen pengampu.
 
-<p align="center"> Dibuat dengan ❤ menggunakan <b>PHP Native</b><br/> © 2025 Praktikum Pemrograman Jaringan Kelas D5, Universitas Kristen Indonesia Toraja (UKIT) </p> 
+<p align="center"> Dibuat dengan ❤ menggunakan <b>PHP Native</b><br/> © 2025 Praktikum Pemrograman Jaringan Kelas D5, Universitas Kristen Indonesia Toraja (UKIT) </p>
