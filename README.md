@@ -105,26 +105,26 @@ api-php-native-stevi/
 │   ├── .htaccess
 │   └── index.php
 ├── src/
-│   ├── Config/ 
-│   │   └──Database.php
+│   ├── Config/
+│   │   └── Database.php
 │   ├── Controllers/
-│   │   ├──AuthController.php
-│   │   ├──BaseController.php
-│   │   ├──HealthController.php
-│   │   ├──UploadController.php
-│   │   ├──UserController.php
-│   │   └──VersionController.php
+│   │   ├── AuthController.php
+│   │   ├── BaseController.php
+│   │   ├── HealthController.php
+│   │   ├── UploadController.php
+│   │   ├── UserController.php
+│   │   └── VersionController.php
 │   ├── Helpers/
-│   │   ├──Jwt.php
-│   │   ├──RateLimiter.php
-│   │   └──Response.php
+│   │      ├── jwt.php
+│   │      ├── RateLimiter.php
+│   │      └── Response.php
 │   ├── Middlewares/
-│   │   ├──AuthMiddleware.php
-│   │   └──CorsMiddleware.php
+│   │   ├── AuthMiddleware.php
+│   │   └── CorsMiddleware.php
 │   ├── Repositories/
-│   │   └──UserRepository.php
+│   │   └── UserRepository.php
 │   └── Validation/
-│       └──Validator.php
+│       └── Validator.php
 ├── uploads/
 │   ├── .htaccess
 │   └── image dan file yang di upload dan namanya terHash.
@@ -133,7 +133,7 @@ api-php-native-stevi/
 ├── ard.php
 ├── CHANGELOG.md
 ├── composer.json
-├── Jwt.php
+├── jwt.php
 ├── openapi-lite.yaml
 └── README.md
 
